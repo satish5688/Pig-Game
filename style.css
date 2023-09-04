@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 595px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.container{
+    display: flex;
+}
+
+.player{
+    
+    padding: 9rem;
+    width: 100%;
+    border: 1px solid gray;
+    
+}
+
+h3{
+    text-transform: uppercase;
+    position: relative;
+    bottom:70px;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.score{
+    position: relative;
+    bottom: 50px;
+    color: #c7365f;
+    font-size: 4rem;
+    margin-bottom: auto;
+
+}
+
+.current-score{
+    background-color: #c7365f;
+    color: white;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    
+}
+
+.current-score p{
+    
+}
+
+
+.current{
+    font-size: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+.c-score{
+    font-size:x-large;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+    border: none;
+
+
+}
+
+.btn-new{
+    position: absolute;
+    width: 10%;
+    top: 70px;
+    
+}
+.btn-roll{
+    position: absolute;
+    top:350px;
+    width: 10%;
+}
+.btn-hold{
+    position: absolute;
+    top: 400px;
+    width: 8%;
+}
+
+
+img{
+    width: 70px;
+    position: absolute;
+    top:140px;
+    display: none;
+}
