@@ -5,31 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pig Game</title>
     <link rel="stylesheet" href="style.css" />
+  
   </head>
   <body>
     <div class="container">
-      <div class="player">
-        <h3>Player 1</h3>
-        <p class="score">0</p>
+      <div class="player player-0 player-active">
+        <h3 class="name-0">Player 1</h3>
+        <p class="score" id='score-0'>0</p>
         <div class="current-score">
-          <p class="current">current</p>
-          <p class="c-score">0</p>
+          <p class="current" >current</p>
+          <p class="c-score" id="current-0">0</p>
         </div>
       </div>
 
-      <div class="player">
-        <h3>Player 2</h3>
-        <p class="score">0</p>
+      <div class="player player-1">
+        <h3 class="name-1">Player 2</h3>
+        <p class="score" id="score-1">0</p>
         <div class="current-score">
-          <p class="current">current</p>
-          <p class="c-score">0</p>
+          <p class="current" >current</p>
+          <p class="c-score" id="current-1">0</p>
         </div>
       </div>
 
     </div>
-    <img src="images/dice-1.png" alt="" />
-    <button class="btn btn-new">🔄 New game</button>
-    <button class="btn btn-roll">🎲 Roll dice</button>
-    <button class="btn btn-hold">📥 Hold</button>
+    <img src="images/dice-1.png" alt="" id="dice" class="hide"/>
+    <button class="btn btn-new" onclick="New_Game()" >🔄 New game</button>
+    <button class="btn btn-roll" onclick="Rolling_dice()">🎲 Roll dice</button>
+    <button class="btn btn-hold" onclick="Hold()">📥 Hold</button>
+    <script src="index.js"></script>
+
   </body>
 </html>

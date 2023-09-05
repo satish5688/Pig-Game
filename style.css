@@ -64,9 +64,7 @@ p{
     
 }
 
-.current-score p{
-    
-}
+
 
 
 .current{
@@ -91,6 +89,11 @@ p{
 
 }
 
+.btn:hover{
+    border: 2px solid black;
+}
+
+
 .btn-new{
     position: absolute;
     width: 10%;
@@ -113,5 +116,19 @@ img{
     width: 70px;
     position: absolute;
     top:140px;
+    
+}
+
+.hide{
     display: none;
+}
+
+.player-active{
+ background-color: rgba(178, 190, 195,0.4);
+ font-weight: bolder;
+}
+
+.player-winner{
+    background-color: black;
+    color: white;
 }
