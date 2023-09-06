@@ -36,7 +36,7 @@ let Hold = () => {
   document.getElementById(`score-${activePlayer}`).textContent =
     scores[activePlayer];
 
-  if (scores[activePlayer] >= 20) {
+  if (scores[activePlayer] >= 100) {
     document.querySelector(`.name-${activePlayer}`).textContent = "Winner...!";
     document
       .querySelector(`.player-${activePlayer}`)

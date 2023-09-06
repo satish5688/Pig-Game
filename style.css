@@ -9,7 +9,7 @@ body{
     background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%) ;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 595px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,18 +97,19 @@ p{
 .btn-new{
     position: absolute;
     width: 10%;
-    top: 70px;
+    top: 120px;
     
 }
 .btn-roll{
     position: absolute;
-    top:350px;
+    top:400px;
     width: 10%;
 }
 .btn-hold{
     position: absolute;
-    top: 400px;
+    top: 450px;
     width: 8%;
+    
 }
 
 
@@ -131,4 +132,12 @@ img{
 .player-winner{
     background-color: black;
     color: white;
+}
+
+.info{
+    text-align: center;
+    flex: none;
+    position: absolute;
+    top:20px;
+    font-family:'Rampart one';
 }
